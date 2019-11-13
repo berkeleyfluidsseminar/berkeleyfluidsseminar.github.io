@@ -1,0 +1,40 @@
+---
+layout: default-bfs-new
+---
+
+<p align="center"><a href="{{site.baseurl}}/fall19/fall19-nov-18.html" title="Towards physics-informed deep learning to emulate complex turbulent and chaotic systems">Towards physics-informed deep learning to emulate complex turbulent and chaotic systems
+</a></p>
+<p align="center"><b>Monday, November 18, 2019</b></p>
+<p align="center"><b>12:00-13:00, 3110 Etcheverry Hall</b></p>
+<p align="center"><a href="https://mech.rice.edu/users/pedram"> Dr. Karthik Kashinath </a> </p>
+<p align="center">(Lawerence Berkeley National Lab</p>
+
+<br>
+<br>
+
+<p align="justify"> <b> Abstract: </b> 
+Simulating complex multi-scale physical systems often involves solving partial differential equations (PDEs) with closures for the unresolved scales. Although the advancement of high-performance computing has made resolving small-scale physics possible, such simulations are still very expensive. Therefore, reliable and accurate closure models for the unresolved physics remains an important requirement for many computational physics problems, e.g., turbulence simulation. We present two deep learning-based approaches to developing predictive models for unresolved physics. 
+<br><br>
+Generative adversarial networks (GANs) have shown promise in emulating solutions of PDEs governing complex systems without explicitly solving these PDEs. However, GANs are known to be difficult to train and to achieve convergence. We present a constrained GAN by enforcing constraints of covariance from the training data, which results in an improved deep-learning-based emulator that can capture the higher-order statistics of the physical system it models. We exemplify this approach on Rayleigh-Benard convection (RBC), an idealized model of turbulent atmospheric convection. 
+<br><br>
+In the second part of this talk, we aim to predict the same turbulent flow (RBC) by learning its nonlinear dynamics from spatiotemporal velocity fields of Lattice-Boltzmann simulations. We adopt a hybrid approach by marrying two turbulent flow simulation techniques with deep learning. Specifically, we introduce trainable spectral filters in a coupled model of Reynolds-averaged Navier-Stokes (RANS) and Large Eddy Simulation (LES), followed by a specialized U-net for prediction. Our approach, which we call Turbulent-Flow Net (TF-Net), is grounded in a principled physics model, yet offers the flexibility
+of learned representations.  We compare our model, TF-Net, with state-of-the-art baselines and observe reductions in error for predictions 60 frames ahead. Most significantly, our method predicts physical fields that obey desirable physical characteristics, such as conservation of mass, whilst faithfully emulating the turbulent kinetic energy field and spectrum, which are critical for accurate
+prediction of turbulent flows.
+<br><br>
+Given the ever-growing high-fidelity simulation databases of physical systems, this work shows potential as alternatives to the explicit modeling of closures or parameterizations for unresolved physics, which are known to be a major source of uncertainty in simulating multi-scale physical systems.
+ </p>
+ 
+<br>
+<br>
+
+<p align="justify"> <b> Bio:</b> Karthik Kashinath leads various fluid and climate dynamics and informatics projects at the Big Data Center @ NERSC (Lawrence Berkeley Lab). He received his Bachelors from the Indian Institute of Technology, Madras in 2007, Masters from Stanford University in 2009 and PhD from the University of Cambridge, U. K. in 2013. His background is in engineering and applied physics. He has worked on various projects spanning a wide range of disciplines from supersonic aircraft engines to battery technologies to complex chaotic systems and turbulence. He joined Lawrence Berkeley Lab in 2013 as a post-doc in climate science with Bill Collins and NERSC in 2017 as a member of the Data &amp; Analytics Services group. His current research interests lie in novel data analytics, pattern discovery methods and predictive modeling for large complex systems such as Earth’s climate. When he is not in front of the computer he runs up mountains, swims in lakes and embarks on exotic culinary adventures. 
+ </p>
+
+<br>
+<br>
+
+
+
+
+
+
